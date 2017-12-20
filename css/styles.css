@@ -1,0 +1,269 @@
+/*
+
+Colours:
+
+Light yellow:   #FFF653;
+Mid yellow:     #CEC441;
+
+Light grey:     #C6C6C6;
+Mid grey:       #AAAAAA;
+Dark grey:      #999999;
+
+*/
+
+/*******************
+  BASE SETUP
+*******************/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " "; 
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.container {
+  margin: 0 auto;
+  width: 95%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+header {
+	background-color: #000;
+	width: 100%;
+	padding: 20px 0;
+	border-bottom: 4px solid #FFF653;
+}
+
+h1 {
+	font-family: 'Merriweather', serif;
+	color: #FFF653;
+	font-size: 23px;
+	margin-bottom: 20px;
+
+}
+
+nav {
+	float: right;
+}
+
+.uppercase {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+.uppercase-grey {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: #999;
+	padding: 17px 5px;
+}
+
+li {
+	display: inline;
+	color: #fff;
+	padding: 5px; 
+}
+
+
+.intro {
+	background-color: #C6C6C6;
+	border-top: 1px solid  #AAA;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+	color: #000000;
+	text-align: center;
+	padding: 15px 0;
+	position: relative;
+	font-style: italic;
+	
+}
+
+del { 
+	color: #AAAAAA;
+
+}
+
+span {
+	 border-bottom: 3px solid #FFF653; 	
+
+}
+
+
+h2, h4 {
+	font-family: 'Merriweather', serif;
+	font-size: 20px;
+}
+
+.profile {
+	background: url("../images/coworking.jpg") no-repeat center top rgb(134,141,157);
+	background-size: cover;
+	padding: 30px;
+
+}
+
+.create-profile {
+	background-color: rgba(255, 255, 255, 0.8);
+	width: 40%;
+	height: 80%;
+	padding: 30px;
+	float: right;
+	-webkit-box-shadow: 1px 1px 10px -1px rgba(0,0,0,0.67);
+    -moz-box-shadow: 1px 1px 10px -1px rgba(0,0,0,0.67);
+    box-shadow: 1px 1px 10px -1px rgba(0,0,0,0.67);
+    margin: 0 auto;
+}
+
+h3 {
+	font-size: 23px;
+	font-weight: bolder;
+	padding-bottom: 10px;
+}
+
+p {
+	line-height: 1.4;
+	padding-bottom: 15px;
+}
+
+
+.yellow {
+	background-color: #FFF653;
+	color: #000000;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 12px;
+	border-radius: 4px;
+	border-bottom: 2px solid #CEC441;
+	display: block;
+	text-align: center;
+}
+
+
+.three-coloumn {
+	padding: 20px 0;
+
+}
+
+.coloumn-within {
+	border-right: 1px solid #c6c6c6;
+	float: left;
+	padding: 20px;
+	width: 33.3333333333%;
+}
+
+.coloumn-within:last-child {
+	border-right: none;
+}
+
+.coloumn-within h4 {
+	line-height: 1.4;
+	margin: 0;
+}
+
+.coloumn-within p {
+	margin: 5px 0 20px;
+}
+
+
+.grey {
+	background-color: #C6C6C6;
+	color: #000000;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 12px;
+	border-radius: 4px;
+	border-bottom: 2px solid #999999;
+	display: block;
+	text-align: center;
+}
+
+footer {
+	background-color: #000;
+	color: #fff;
+	padding: 20px 0
+}
+
+a, li {
+	color: #ffffff;
+	text-decoration: none;
+
+}
+
+/*******************
+  DEVELOPERS / DESIGNERS STYLES
+*******************/
+
+
+.person {
+	background-color: #fff;
+	color: #000;
+	width: 23.9%;
+	float: left;
+	text-align: left;
+	font-style: normal;
+	padding: 10px;
+	margin: 1%;
+}
+
+.person {
+  width: 24.25%;
+  margin: 1% 1% 1% 0;
+}
+
+.person:nth-child(4n) {
+  margin: 1% 0;
+}
+
+.person-pic {
+	background-color: #C6C6C6;
+	width: 100%;
+	padding: 25%;
+	text-align: center;
+}
+
+
+h5 {
+	font-size: 18px;
+	font-weight: 500;
+	margin: 10px 0;
+}
+
+h6 {
+	color: #aaa;
+	padding: 30px 0;
+}
+
+ins {
+	background-color: #666;
+	color: #fff;
+	border-radius: 173px;
+	padding: 2px 8px;
+	display: inline-block;
+	margin: 3px 3px 10px;
+	text-decoration: none;
+	font-size: 11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+	
