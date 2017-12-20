@@ -70,6 +70,11 @@ nav {
 	padding: 17px 5px;
 }
 
+.current-page-grey {
+	background-color: #999;
+	padding: 18px 5px;
+}
+
 li {
 	display: inline;
 	color: #fff;
